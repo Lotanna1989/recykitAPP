@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+.navbar {
+    background: black;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a > strong {
+    color: green;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a > strong:hover {
+    color: White;
+}
+
+#navbarSupportedContent > button{
+    background-color: black;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.mid video {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hero {
+    position: relative;
+}
+
+.mid .hero p{
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 1rem;
+}
+
+.mid .hero a{
+    background-color: green;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.mid .hero a:hover {
+    background: white;
+}
+
+.about {
+    background-color: black;
+}
+
+.about .text {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.about .text h6{
+    color: green;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.about .text h2 {
+    color: #F7F5F4;
+    font-weight: 800;
+    font-size: 2.7rem;
+}
+
+.about .text a{
+    background-color: green;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #111;
+}
+
+.about .text p{
+    color: #F7F5F4;
+    
+}
+
+.Services .text {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.Services .text h6{
+    color: green;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.Services .text h2 {
+    color: black;
+    font-weight: 800;
+    font-size: 2.7rem;
+}
+
+.Services .text a{
+    background-color: black;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.Blog {
+    background-color: black;
+}
+
+.Blog .text {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+    
+}
+
+.Blog .text h6{
+    color: green;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.Blog .text h2 {
+    color: #F7F5F4;
+    font-weight: 800;
+    font-size: 2.7rem;
+}
+
+.Blog .text p{
+    color: #F7F5F4;
+    
+}
+
+.Blog .text a{
+    background-color: green;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #111;
+}
+
+.green {
+    background-color: white;
+}
+
+.green .text {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.green .text h6{
+    color: green;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.green .text h2 {
+    color: black;
+    font-weight: 800;
+    font-size: 2.7rem;
+}
+
+.green .text a{
+    background-color: black;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.green .text p{
+    color: black;
+    
+}
+
+.serviced {
+    background-color: black;
+}
+
+body > footer {
+    background: black!important;
+}
